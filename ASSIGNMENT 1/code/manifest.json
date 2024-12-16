@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "My Chrome Extension",
+    "version": "1.0",
+    "description": "DEPS自己的个人插件！",
+    "icons": {
+        "128": "images/logo.png"
+    },
+    "permissions": [],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "action": {
+        "default_popup": "popup/popup.html",
+        "default_icon": "images/logo.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content.js"],
+            "css": ["styles/styles.css"]
+        }
+    ]
+}
