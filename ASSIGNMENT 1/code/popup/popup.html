@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>个人主页</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>欢迎来到 Chrome 插件</h1>
+            <p id="greeting"></p>
+            <p>专业：密码科学与技术</p>
+            <p>学号：2213741</p>
+            <p>姓名：廖远菁</p>
+        </div>
+
+        <!-- 图片轮播 -->
+        <div class="carousel">
+            <img src="../images/Ai.jpg" alt="轮播图1">
+            <img src="../images/Pr.jpg" alt="轮播图2">
+            <img src="../images/Ps.jpg" alt="轮播图3">
+            <img src="../images/CV.jpg" alt="轮播图3">
+        </div>
+
+         <!-- 留言板 -->
+         <div class="message-board">
+            <h2>留言板</h2>
+            <textarea id="message" placeholder="留下你的留言吧..."></textarea>
+            <button id="submitMessage">提交留言</button>
+            <div id="messages"></div>
+        </div>
+
+        <!-- 实时时间显示 -->
+        <div id="currentTime"></div>
+    </div>
+
+    <script>
+        // 显示当前时间
+        function updateTime() {
+            const now = new Date();
+            document.getElementById('currentTime').innerText = 
+                "当前时间：" + now.toLocaleString();
+        }
+        setInterval(updateTime, 1000);
+        updateTime();
+
+    </script>
+    <script src="popup.js"></script>
+</body>
+</html>
