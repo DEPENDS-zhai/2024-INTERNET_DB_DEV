@@ -1,4 +1,4 @@
-
+```base
 myChromeExtension/
 │
 ├── manifest.json               # 插件的配置文件
@@ -10,3 +10,4 @@ myChromeExtension/
     ├── pic1.png                # 轮播图片1
     ├── pic2.png                # 轮播图片2
     └── pic3.png                # 轮播图片3
+```
