@@ -145,6 +145,16 @@
   
 - **后期维护性**：
   随着项目功能扩展，后台系统的需求可能会增加。模板应该支持模块化设计，易于修改和扩展，这样可以减少后期维护的成本。
+
+  后台模版参考宝塔界面：
+
+
+界面如下所示：
+
+   <div align=center>
+         <img src="evidImages/首页.png" alt="GET_Req" width="600">
+         <img src="evidImages/发表问题.png" alt="GET_Req" width="600">
+    </div>
 ---
 
 ### 2. 前台模板的选择要点
@@ -181,9 +191,14 @@
   
 利用 github 中开源资源选取仿造知乎的前台模版：
 
-[GitHub - maoxiaoquan/kite-client: kite-client前台模版](https://github.com/tcxiaotudou/zhihu?tab=readme-ov-file)
+https://github.com/tcxiaotudou/zhihu?tab=readme-ov-file
 
 界面如下所示：
+
+   <div align=center>
+         <img src="evidImages/首页.png" alt="GET_Req" width="600">
+         <img src="evidImages/发表问题.png" alt="GET_Req" width="600">
+    </div>
 ---
 
 
