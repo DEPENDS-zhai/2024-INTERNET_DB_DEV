@@ -44,9 +44,10 @@
    - 文本编辑：包括字体风格、大小、颜色、加粗等；
      <div align=center>
          <img src="evidImages/4.png" alt="GET_Req" width="600">
+     </div>         
          <div align=center>
-         <img src="evidImages/5.png" alt="GET_Req" width="600">
-    </div>
+         <img src="evidImages/5.png" alt="GET_Req" width="300">
+
     </div>
    - 图形编辑：包括对图形进行等比放大缩小，位置、圆角调整等；
    - 分组功能：将多个组件进行Grouping操作，方便操作，分组可在左侧工具栏查看详情。
