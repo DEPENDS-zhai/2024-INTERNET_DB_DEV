@@ -147,13 +147,11 @@
   随着项目功能扩展，后台系统的需求可能会增加。模板应该支持模块化设计，易于修改和扩展，这样可以减少后期维护的成本。
 
   后台模版参考宝塔界面：
-
-
 界面如下所示：
 
    <div align=center>
-         <img src="evidImages/首页.png" alt="GET_Req" width="600">
-         <img src="evidImages/发表问题.png" alt="GET_Req" width="600">
+         <img src="evidImages/宝塔.png" alt="GET_Req" width="600">
+
     </div>
 ---
 
