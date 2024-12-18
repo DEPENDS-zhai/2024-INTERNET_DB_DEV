@@ -178,7 +178,12 @@
   
 - **浏览器兼容性**：
   模板应支持主流浏览器（如Chrome、Firefox、Safari等）的兼容性，保证不同浏览器中显示的一致性。
+  
+利用 github 中开源资源选取仿造知乎的前台模版：
 
+[GitHub - maoxiaoquan/kite-client: kite-client前台模版](https://github.com/tcxiaotudou/zhihu?tab=readme-ov-file)
+
+界面如下所示：
 ---
 
 
