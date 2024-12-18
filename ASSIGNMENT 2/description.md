@@ -30,6 +30,9 @@
    - `studying`：介绍本人的学习安排方面，主要实现了点击-出现/隐藏组件效果
    - `working`：介绍本人的睡眠安排方面，主要实现了下拉选项框效果
    - `friending`：介绍本人的睡眠安排方面，主要实现了拖动数值bar的动态显示效果
+<div align=center>
+         <img src="evidImages/2.png" alt="GET_Req" width="600">
+    </div>
 
 
 ### 2.3、页面设计
@@ -39,14 +42,26 @@
    以`Starters overview`页面制作过程为例：
 
    - 文本编辑：包括字体风格、大小、颜色、加粗等；
+     <div align=center>
+         <img src="evidImages/4.png" alt="GET_Req" width="600">
+         <div align=center>
+         <img src="evidImages/5.png" alt="GET_Req" width="600">
+    </div>
+    </div>
    - 图形编辑：包括对图形进行等比放大缩小，位置、圆角调整等；
    - 分组功能：将多个组件进行Grouping操作，方便操作，分组可在左侧工具栏查看详情。
+   <div align=center>
+         <img src="evidImages/8.png" alt="GET_Req" width="600">
+    </div>
 
 2. Auxre页面跳转：
 
   选中组件后，点击右侧工具栏中`interactions`交互功能实现，最后点击`New interaction`按钮，选中点击事件后的链接跳转设置，此时只需要选择所想要跳转的界面即可。
+  <div align=center>
+         <img src="evidImages/9.png" alt="GET_Req" width="600">
+           <img src="evidImages/10.png" alt="GET_Req" width="600">
+    </div>
   
-   <img src="file:///C:/Users/lj159/AppData/Roaming/marktext/images/2024-11-06-19-58-39-image.png" title="" alt="" data-align="center">
 
 3. Axure 组件点击事件设置：
 
@@ -55,12 +70,20 @@
    
    - `sleeping page`：
      该页面主要实现了文本变化效果，具体操作与页面跳转设置过程类似，在选择点击事件后，触发事件选择`set text`即可：
+        <div align=center>
+         <img src="evidImages/12.png" alt="GET_Req" width="600">
+    </div>
    - `studying page`：
      该页面主要实现了组件的出现、隐藏效果，在选择点击事件后，触发事件选择Toggle并分别设置出现、消失效果（动画效果，延时设置等）即可：
+        <div align=center>
+         <img src="evidImages/13.png" alt="GET_Req" width="600">
+    </div>
      
 
 4. 借助 Axure 提供的组件实现复杂功能：
-
+   <div align=center>
+         <img src="evidImages/14.png" alt="GET_Req" width="600">
+    </div>
    Axure 内提供了许多不同功能的按钮以及图标模版，其内部自动封装了相应的动画效果，对这些现成的按钮我们可以直接使用。
    我们以`friending page``studying page`与`working page`进行说明：
    
@@ -73,13 +96,13 @@
    
 
 7. 页面展示：
-   <img title="" src="file:///C:/Users/lj159/AppData/Roaming/marktext/images/2024-11-06-21-16-18-image.png" alt="" width="1029" data-align="center">
-
-   <img title="" src="file:///C:/Users/lj159/AppData/Roaming/marktext/images/2024-11-06-21-16-53-image.png" alt="" data-align="center" width="1005">
-
-<img title="" src="file:///C:/Users/lj159/AppData/Roaming/marktext/images/2024-11-06-21-17-23-image.png" alt="" width="971" data-align="center">
-
-<img title="" src="file:///C:/Users/lj159/AppData/Roaming/marktext/images/2024-11-06-21-20-10-image.png" alt="" data-align="center" width="974">
+   <div align=center>
+         <img src="evidImages/15.png" alt="GET_Req" width="600">
+             <img src="evidImages/16.png" alt="GET_Req" width="600">
+             <img src="evidImages/17.png" alt="GET_Req" width="600">
+             <img src="evidImages/19.png" alt="GET_Req" width="600">
+            
+    </div>
 
 ### 2.4、功能总结
 
