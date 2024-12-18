@@ -12,7 +12,9 @@
 
 进入axure官网：https://www.axure.com/，点击`Download Your Free 30-day Trail`，可以获得Axure免费的30天试用，下载后直接进行下载即可。
 
-<img title="" src="file:///C:/Users/lj159/AppData/Roaming/marktext/images/2024-11-06-19-27-26-image.png" alt="" width="948" data-align="center">
+<div align=center>
+         <img src="evidImages/1.png" alt="GET_Req" width="600">
+    </div>
 
 ### 2.2、页面框架搭建
 
