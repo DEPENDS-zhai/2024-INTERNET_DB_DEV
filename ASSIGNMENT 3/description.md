@@ -74,15 +74,12 @@
 
 6. **登录到后台**
    - 安装完成后，点击“登录”进入WordPress后台。输入刚才设置的用户名和密码，即可访问WordPress的管理界面。
-     
+   - 登录成功后进入到主页面，我们可以到wp_admin页面中管理我们自己的wordpress页面，下面将接受如何利用安装的插件制作一个简易的个人页面。
     <div align=center>
          <img src="evidImages/6.png" alt="GET_Req" width="600">
          <img src="evidImages/7.png" alt="GET_Req" width="600">
     </div>
     
-  - 登录成功后进入到主页面，我们可以到wp_admin页面中管理我们自己的wordpress页面，下面将接受如何利用安装的插件制作一个简易的个人页面。
-    
-
 ---
 
 ## 使用 Elementor 插件设计页面布局
@@ -132,12 +129,11 @@
          <img src="evidImages/18.png" alt="GET_Req" width="600">
     </div>
 
+### 三、保存和发布页面
 
-5. **保存和发布页面**
-
-    - 在设计完成后，点击右下角的 **发布** 按钮，将设计的页面发布到网站。
-    - 同时设置我们的主显示界面为我们刚刚制作的界面`Elementor #14`
-    - 设置完毕后我们能够访问我们wordpress主连接，即可查看制作的页面：
+- 在设计完成后，点击右下角的 **发布** 按钮，将设计的页面发布到网站。
+- 同时设置我们的主显示界面为我们刚刚制作的界面`Elementor #14`
+- 设置完毕后我们能够访问我们wordpress主连接，即可查看制作的页面：
   <div align=center>
              <img src="evidImages/19.png" alt="GET_Req" width="600">
          <img src="evidImages/21.png" alt="GET_Req" width="600">
