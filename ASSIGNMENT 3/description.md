@@ -1,6 +1,6 @@
 # 个人作业3：开源建站工具初试文档
 
-## 一、作业要求：
+## 作业要求：
 
 - 自行安装WordPress并随意安装模块、设计布局。
 
@@ -10,7 +10,7 @@
 
 ## 安装 WordPress 步骤
 
-### 1 安装 XAMPP
+### 一、安装 XAMPP
    XAMPP是一个跨平台的集成开发环境，包含了Apache、MySQL、PHP和Perl等服务，适用于在本地搭建开发与测试环境。安装和配置XAMPP是使用WordPress的第一步。
 
 1. **下载并安装XAMPP**
@@ -29,7 +29,7 @@
     </div>
 
 
-### 2.下载并安装WordPress
+### 二、下载并安装WordPress
 
 1. **下载WordPress**
    - 访问[WordPress官网](https://cn.wordpress.org/download/)，下载最新版本的WordPress压缩包。
@@ -51,7 +51,7 @@
     <div align=center>
          <img src="evidImages/8.png" alt="GET_Req" width="600">
     </div>
-### 3. 配置WordPress
+### 三、 配置WordPress
 
 1. **访问WordPress安装页面**
    - 在浏览器中输入`http://localhost/wordpress`，进入WordPress的安装页面。
@@ -66,13 +66,13 @@
 
    配置完成后，点击“提交”，WordPress将检查数据库连接是否成功。
 
-4. **安装WordPress**
+3. **安装WordPress**
 (由于之前已经安装过，在这里无法提供类似页面截图)
    - 如果数据库连接成功，点击“运行安装”按钮，WordPress将进入安装页面。
    - 填写站点标题、管理员用户名、密码以及电子邮件地址等信息。
    - 完成设置后，点击“安装WordPress”按钮。
 
-6. **登录到后台**
+4. **登录到后台**
    - 安装完成后，点击“登录”进入WordPress后台。输入刚才设置的用户名和密码，即可访问WordPress的管理界面。
    - 登录成功后进入到主页面，我们可以到wp_admin页面中管理我们自己的wordpress页面，下面将接受如何利用安装的插件制作一个简易的个人页面。
     <div align=center>
