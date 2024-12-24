@@ -15,22 +15,42 @@
 
 1. **下载并安装XAMPP**
    - 从[XAMPP官方网站](https://www.apachefriends.org/index.html)下载并安装XAMPP，选择适合自己操作系统的版本。（因为在报告完成前 XAMPP 已经安装，在这里安装截图不再给出）
+     
+     <div align=center>
+         <img src="evidImages/1.png" alt="GET_Req" width="600">
+         <img src="evidImages/2.png" alt="GET_Req" width="600">
+    </div>
    
 2. **启动XAMPP并检查服务**
    - 打开XAMPP控制面板，启动Apache和MySQL服务。确保它们正常运行，可以通过`http://localhost/`访问Apache服务。
+     
+    <div align=center>
+         <img src="evidImages/3.png" alt="GET_Req" width="600">
+    </div>
 
 
 ### 2.下载并安装WordPress
 
 1. **下载WordPress**
    - 访问[WordPress官网](https://cn.wordpress.org/download/)，下载最新版本的WordPress压缩包。
+     
+ <div align=center>
+         <img src="evidImages/4.png" alt="GET_Req" width="600">
+    </div>
 
 2. **解压并移动文件**
    - 解压下载的WordPress文件，将解压后的文件夹重命名为`wordpress`，并将其放入XAMPP的`htdocs`文件夹中。
+     
+<div align=center>
+         <img src="evidImages/5.png" alt="GET_Req" width="600">
+    </div>
 
 3. **配置数据库**
-   -在本地数据库创建一个新的数据库（命名为`wordpress_db`）我们在这里借助 Navicat 进行数据库建立。此数据库将用于存储WordPress的数据。
-
+   -  在本地数据库创建一个新的数据库（命名为`wordpress_db`）我们在这里借助 Navicat 进行数据库建立。此数据库将用于存储WordPress的数据。
+     
+    <div align=center>
+         <img src="evidImages/8.png" alt="GET_Req" width="600">
+    </div>
 ### 3. 配置WordPress
 
 1. **访问WordPress安装页面**
@@ -46,74 +66,84 @@
 
    配置完成后，点击“提交”，WordPress将检查数据库连接是否成功。
 
-3. **安装WordPress**
+4. **安装WordPress**
+(由于之前已经安装过，在这里无法提供类似页面截图)
    - 如果数据库连接成功，点击“运行安装”按钮，WordPress将进入安装页面。
    - 填写站点标题、管理员用户名、密码以及电子邮件地址等信息。
    - 完成设置后，点击“安装WordPress”按钮。
 
-4. **登录到后台**
+6. **登录到后台**
    - 安装完成后，点击“登录”进入WordPress后台。输入刚才设置的用户名和密码，即可访问WordPress的管理界面。
+     
+    <div align=center>
+         <img src="evidImages/6.png" alt="GET_Req" width="600">
+         <img src="evidImages/7.png" alt="GET_Req" width="600">
+    </div>
+    
+  - 登录成功后进入到主页面，我们可以到wp_admin页面中管理我们自己的wordpress页面，下面将接受如何利用安装的插件制作一个简易的个人页面。
+    
 
 ---
 
-# 使用 Elementor 插件设计页面布局
+## 使用 Elementor 插件设计页面布局
 
-## 一、安装 Elementor 插件
-
-### 1.1、进入 WordPress 后台
-
-1. 登录到你搭建的 WordPress 网站后台，地址通常是 `http://localhost/wordpress/wp-admin`。
-2. 输入你的管理员用户名和密码进行登录。
-
-### 1.2、安装插件
+### 一、安装 Elementor 插件
 
 1. 在后台左侧菜单栏，点击 **插件** > **安装插件**。
 2. 在插件页面的右上角搜索框中输入“Elementor”。
 3. 在搜索结果中找到 **Elementor Website Builder**，点击 **现在安装** 按钮。
 
-### 1.3、启用插件
+   <div align=center>
+         <img src="evidImages/9.png" alt="GET_Req" width="600">
+    </div>
 
-1. 安装完成后，点击 **启用** 按钮，启用 Elementor 插件。
-
----
-
-## 二、使用 Elementor 设计页面布局
-
-### 2.1、创建新页面
-
-1. 在后台左侧菜单栏中，点击 **页面** > **添加新页面**。
-2. 在新页面的标题框中输入页面名称（例如：“首页”）。
-3. 点击右侧的 **发布** 按钮，保存页面。
-
-### 2.2、使用 Elementor 编辑页面
-
-1. 在已创建的页面列表中，找到刚才创建的页面，点击 **编辑**。
-2. 在页面编辑界面，点击 **使用 Elementor 编辑** 按钮，进入 Elementor 页面编辑界面。
-
-### 2.3、设计页面布局
-
-1. 在 Elementor 编辑界面，你会看到一个实时预览的页面，以及左侧的控件面板，里面有各种组件（如文本框、图片、按钮等）。
-2. 通过拖拽和设置，设计页面布局：
-   - **添加文本**：在左侧面板中找到 **文本编辑器** 组件，拖动到页面的合适位置，输入你想要显示的内容。
-   - **添加图片**：找到 **图片** 组件，拖动到页面，点击选择或上传图片。
-   - **添加按钮**：拖动 **按钮** 组件，设置按钮文字和链接地址，设置按钮样式。
-   - **添加视频**：拖动 **视频** 组件，输入视频 URL 或上传本地视频。
-
-3. 在设计过程中，你可以实时预览更改的效果，调整每个组件的位置、大小、间距等。
-
-### 2.4、保存和发布页面
-
-1. 在设计完成后，点击右下角的 **发布** 按钮，将设计的页面发布到网站。
-2. 返回 WordPress 后台，访问页面列表，查看你刚才设计的页面。
+4. 安装完成后，点击 **启用** 按钮，启用 Elementor 插件。
 
 ---
 
-## 示例：创建一个简单的首页布局
+### 二、使用 Elementor 设计页面布局
 
-1. **文本区域**：首先拖动一个 **标题** 组件到页面顶部，输入标题文本，例如“欢迎来到我的网站”。
-2. **图片展示区**：拖动一个 **图片** 组件，选择一张图片，放置在标题下方。
-3. **按钮区域**：拖动一个 **按钮** 组件，设置按钮文本为“了解更多”，并链接到另一个页面或外部链接。
-4. **嵌入视频**：拖动 **视频** 组件，输入一个 YouTube 视频链接，放置在页面的合适位置。
+1. 在 Elementor 编辑界面，会看到一个实时预览的页面，以及左侧的控件面板，里面有各种组件（如文本框、图片、按钮等）。
+   
+   <div align=center>
+         <img src="evidImages/16.png" alt="GET_Req" width="600">
+    </div>
+    
+2. **添加文本**
+   - 在左侧面板中找到 **文本编辑器** 组件，拖动到页面的合适位置，输入你想要显示的内容。
+   -  当然在输入文本后， Elementor也提供对于输入文字的风格调整，我们可以在选中编辑文本后，在左侧的样式框中调整文字的不同风格（包括字体系列、字体大小、字体颜色等）
+   <div align=center>
+         <img src="evidImages/14.png" alt="GET_Req" width="600">
+    </div>
+  
+3. **添加图片**：
+   - 找到 **图片** 组件，拖动到页面，点击选择或上传图片。
+   - 当然在上传图片后， Elementor也提供对于图片显示的调整，我们可以在选中插入图片后，同样也是在在左侧的样式框中调整图片显示参数（包括大小，透明度，滤镜等）
+  <div align=center>
+         <img src="evidImages/13.png" alt="GET_Req" width="600">
+    </div>
 
-通过这些步骤，你可以创建一个基础的页面布局，逐步使用 Elementor 丰富页面内容，最终完成一个符合自己需求的设计。
+   
+4. **添加按钮**：
+   - 拖动 **按钮** 组件，设置按钮文字和链接地址，设置按钮样式。
+   - 按钮的跳转功能也可以在左侧工具栏进行设置，在这里跳转链接被设置为`#`之后演示时可以看到按钮的跳转功能
+  
+       <div align=center>
+         <img src="evidImages/18.png" alt="GET_Req" width="600">
+    </div>
+
+
+5. **保存和发布页面**
+
+    - 在设计完成后，点击右下角的 **发布** 按钮，将设计的页面发布到网站。
+    - 同时设置我们的主显示界面为我们刚刚制作的界面`Elementor #14`
+    - 设置完毕后我们能够访问我们wordpress主连接，即可查看制作的页面：
+  <div align=center>
+             <img src="evidImages/19.png" alt="GET_Req" width="600">
+         <img src="evidImages/21.png" alt="GET_Req" width="600">
+         <img src="evidImages/22.png" alt="GET_Req" width="600">
+    </div>
+
+---
+
 
